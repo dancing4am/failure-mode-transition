@@ -1178,7 +1178,10 @@ rises with contemporaneous coupling (*r* = +0.62, *p* = 0.03,
 active-stabilizer functional form predicts a stronger claim: post-cut
 return should scale with the *interaction* |Δr| × *J*, where Δr is
 the cut magnitude. Linear regression on 12 FOMC cuts ≥ 10 bp
-(2004–2025) of 90-day post-cut SPY return on (*J*, |Δr|, *J* × |Δr|):
+(2019–2025; the FRED search window spans 2004–2025 but the 60-day
+rolling-correlation series is constrained by XLRE's 2015-10-08
+inception, and the 2015–2018 period contained no rate cuts) of
+90-day post-cut SPY return on (*J*, |Δr|, *J* × |Δr|):
 
 | term | coefficient | std err | *p* |
 |---|---|---|---|
