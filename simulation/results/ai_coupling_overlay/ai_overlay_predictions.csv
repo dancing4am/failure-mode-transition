@@ -1,0 +1,6 @@
+label,J,P_collapse_mu100,P_collapse_mu60,P_collapse_mu40,passive_effectiveness_mu100
+AI adversarial-transfer proxy median,1.15,0.0,0.04499999999999999,0.994,1.0
+AI benchmark-vector proxy median,8.7,0.373,0.40399999999999997,0.421,0.627
+Critical threshold T = 2.0,2.0,0.0,0.08,0.52,1.0
+Financial average rho=0.5,1.0,0.0,0.03,1.0,1.0
+Financial crisis rho=0.9,9.0,0.37,0.41,0.43,0.63

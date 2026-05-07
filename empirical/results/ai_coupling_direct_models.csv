@@ -1,0 +1,15 @@
+model,tier
+GPT-4 Turbo (2024-04-09),frontier-closed
+GPT-4o (2024-05-13),frontier-closed
+GPT-4 (1106-preview),frontier-closed
+Claude 3 Opus,frontier-closed
+Claude 3.5 Sonnet,frontier-closed
+Claude 3 Sonnet,frontier-closed
+Gemini Pro,frontier-closed
+Mistral Large (2402),frontier-closed
+Llama 3.1 405B Instruct,frontier-open
+Llama 3 70B Instruct,frontier-open
+Mixtral 8x22B Instruct,frontier-open
+Mixtral 8x7B Instruct,non-frontier
+Llama 3 8B Instruct,non-frontier
+Mistral 7B Instruct v0.3,non-frontier

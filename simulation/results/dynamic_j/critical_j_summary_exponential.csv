@@ -1,0 +1,10 @@
+schedule,mult,median_J_at_collapse,q25,q75,frac_collapsed
+exponential,40,0.5167970246744982,0.5148768580325938,0.5191824521215493,1.0
+exponential,50,0.5317857762989022,0.5204691782958646,0.5451759321843919,0.66
+exponential,60,0.5275623584867303,0.5198205052750631,0.5353042116983975,0.02
+exponential,65,,,,0.0
+exponential,70,,,,0.0
+exponential,75,,,,0.0
+exponential,80,,,,0.0
+exponential,90,,,,0.0
+exponential,100,,,,0.0

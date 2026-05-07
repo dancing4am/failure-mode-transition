@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local cache files produced by analysis pipelines
+*.cache.csv
+empirical/results/crypto_panel_cache.csv
+
+# Build artifacts
+*.aux
+*.log
+*.out

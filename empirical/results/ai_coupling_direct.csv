@@ -1,0 +1,92 @@
+model_i,model_j,tier_i,tier_j,rho,J_eff
+GPT-4 Turbo (2024-04-09),GPT-4 (1106-preview),frontier-closed,frontier-closed,0.8545971512794495,5.877444347200502
+Claude 3 Opus,Claude 3.5 Sonnet,frontier-closed,frontier-closed,0.8545119166374207,5.873415175233573
+Llama 3.1 405B Instruct,Llama 3 70B Instruct,frontier-open,frontier-open,0.8535137176513672,5.82657777893517
+GPT-4 Turbo (2024-04-09),GPT-4o (2024-05-13),frontier-closed,frontier-closed,0.8492866158485413,5.635110780838512
+Llama 3 70B Instruct,Llama 3 8B Instruct,frontier-open,non-frontier,0.8465620279312134,5.517291557735771
+GPT-4o (2024-05-13),GPT-4 (1106-preview),frontier-closed,frontier-closed,0.8428910374641418,5.365009251281655
+Claude 3 Opus,Claude 3 Sonnet,frontier-closed,frontier-closed,0.8426030874252319,5.353364774705928
+Claude 3.5 Sonnet,Claude 3 Sonnet,frontier-closed,frontier-closed,0.8388292193412781,5.204598599776553
+Llama 3.1 405B Instruct,Llama 3 8B Instruct,frontier-open,non-frontier,0.83725905418396,5.144735087937766
+Mistral Large (2402),Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.8294855356216431,4.864605115147803
+GPT-4 (1106-preview),Claude 3.5 Sonnet,frontier-closed,frontier-closed,0.8256738781929016,4.736374959953253
+Mistral Large (2402),Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.8250854015350342,4.717075697374071
+GPT-4 (1106-preview),Mistral Large (2402),frontier-closed,frontier-closed,0.8233417868614197,4.660648221407886
+GPT-4 (1106-preview),Claude 3 Opus,frontier-closed,frontier-closed,0.8223109841346741,4.627809885321893
+GPT-4o (2024-05-13),Mistral Large (2402),frontier-closed,frontier-closed,0.8198079466819763,4.549634301769595
+GPT-4o (2024-05-13),Claude 3.5 Sonnet,frontier-closed,frontier-closed,0.8192287087440491,4.531851839151369
+GPT-4 Turbo (2024-04-09),Mistral Large (2402),frontier-closed,frontier-closed,0.8190978765487671,4.527851088323887
+Mixtral 8x22B Instruct,Mixtral 8x7B Instruct,frontier-open,non-frontier,0.8174445033073425,4.477786306722699
+Claude 3 Opus,Mistral Large (2402),frontier-closed,frontier-closed,0.8163783550262451,4.445981056007479
+GPT-4o (2024-05-13),Claude 3 Opus,frontier-closed,frontier-closed,0.8161953687667847,4.440559322638493
+Claude 3.5 Sonnet,Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.81617271900177,4.439888979316561
+GPT-4 Turbo (2024-04-09),Claude 3.5 Sonnet,frontier-closed,frontier-closed,0.814947783946991,4.403880165982695
+GPT-4 Turbo (2024-04-09),Claude 3 Opus,frontier-closed,frontier-closed,0.8145401477813721,4.392002571107183
+Claude 3 Opus,Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.8137531280517578,4.369217692299815
+Claude 3.5 Sonnet,Llama 3 70B Instruct,frontier-closed,frontier-open,0.8135550618171692,4.363513805986969
+Claude 3.5 Sonnet,Mistral Large (2402),frontier-closed,frontier-closed,0.8125624060630798,4.33510903013692
+GPT-4 (1106-preview),Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.8122382760047913,4.325899116827015
+GPT-4 (1106-preview),Claude 3 Sonnet,frontier-closed,frontier-closed,0.8120304346084595,4.320010172481914
+Mixtral 8x22B Instruct,Mistral 7B Instruct v0.3,frontier-open,non-frontier,0.8118267059326172,4.314250382638839
+Claude 3 Opus,Llama 3 70B Instruct,frontier-closed,frontier-open,0.8100243806838989,4.263833346615371
+GPT-4 (1106-preview),Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.809665322303772,4.253903345957737
+Claude 3 Opus,Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.809388279914856,4.246267121210131
+Claude 3 Opus,Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.809380829334259,4.246062064521011
+Claude 3 Sonnet,Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.8091857433319092,4.240698559224723
+GPT-4 (1106-preview),Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.809087336063385,4.237997204480948
+GPT-4 Turbo (2024-04-09),Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.8090319633483887,4.236478405149705
+Mistral Large (2402),Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.8089749813079834,4.234916383451674
+GPT-4o (2024-05-13),Llama 3 70B Instruct,frontier-closed,frontier-open,0.8087052702903748,4.2275355495571905
+GPT-4o (2024-05-13),Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.8083152770996094,4.216899838802762
+Claude 3 Sonnet,Llama 3 70B Instruct,frontier-closed,frontier-open,0.8082674145698547,4.21559753526786
+Mixtral 8x7B Instruct,Mistral 7B Instruct v0.3,non-frontier,non-frontier,0.8081375956535339,4.212068531123977
+GPT-4 Turbo (2024-04-09),Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.8078834414482117,4.205173398577368
+Claude 3 Sonnet,Mistral Large (2402),frontier-closed,frontier-closed,0.8078267574310303,4.203638064446493
+GPT-4 Turbo (2024-04-09),Claude 3 Sonnet,frontier-closed,frontier-closed,0.8065878748893738,4.170306667319996
+Claude 3.5 Sonnet,Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.8059312701225281,4.152813648192392
+GPT-4 (1106-preview),Llama 3 70B Instruct,frontier-closed,frontier-open,0.8053836822509766,4.1383152839711865
+GPT-4 Turbo (2024-04-09),Llama 3 70B Instruct,frontier-closed,frontier-open,0.805223822593689,4.134098087950249
+GPT-4o (2024-05-13),Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.8049450516700745,4.126760477301764
+Claude 3.5 Sonnet,Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.8048191070556641,4.12345232627454
+GPT-4o (2024-05-13),Claude 3 Sonnet,frontier-closed,frontier-closed,0.8038716912269592,4.098703018732485
+Claude 3.5 Sonnet,Llama 3 8B Instruct,frontier-closed,non-frontier,0.8031988739967346,4.081271740200346
+Mistral Large (2402),Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.80315762758255,4.080207008881542
+GPT-4o (2024-05-13),Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.8029188513755798,4.074052018570845
+GPT-4 Turbo (2024-04-09),Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.8024969100952148,4.063211924846811
+GPT-4 Turbo (2024-04-09),Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.8016054034233093,4.040459857551835
+Claude 3 Sonnet,Llama 3 8B Instruct,frontier-closed,non-frontier,0.8015784025192261,4.039773959570581
+GPT-4 (1106-preview),Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.8005069494247437,4.01270594196845
+Claude 3 Sonnet,Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.8004871606826782,4.012208755194532
+Claude 3 Opus,Llama 3 8B Instruct,frontier-closed,non-frontier,0.799088180065155,3.9773079569151117
+Mistral Large (2402),Llama 3 70B Instruct,frontier-closed,frontier-open,0.7989280819892883,3.9733449100869827
+GPT-4 (1106-preview),Llama 3 8B Instruct,frontier-closed,non-frontier,0.7989009618759155,3.9726742073374233
+Claude 3 Sonnet,Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.7982007265090942,3.955419227736049
+GPT-4o (2024-05-13),Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.7981307506561279,3.9537014837587297
+Claude 3 Opus,Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.7974727153778076,3.937606317417751
+Llama 3 70B Instruct,Mixtral 8x7B Instruct,frontier-open,non-frontier,0.7968002557754517,3.9212660371015913
+GPT-4 Turbo (2024-04-09),Llama 3 8B Instruct,frontier-closed,non-frontier,0.7955719828605652,3.8916974003515725
+GPT-4o (2024-05-13),Llama 3 8B Instruct,frontier-closed,non-frontier,0.7954837083816528,3.8895860182431057
+Llama 3.1 405B Instruct,Mixtral 8x7B Instruct,frontier-open,non-frontier,0.7951648831367493,3.8819753922741995
+Claude 3.5 Sonnet,Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.7949023246765137,3.875725667893453
+Mistral Large (2402),Llama 3 8B Instruct,frontier-closed,non-frontier,0.794717013835907,3.871324305467038
+Llama 3 70B Instruct,Mixtral 8x22B Instruct,frontier-open,frontier-open,0.7942101359367371,3.8593258203066054
+Llama 3.1 405B Instruct,Mixtral 8x22B Instruct,frontier-open,frontier-open,0.7914556264877319,3.7951425548346087
+Mixtral 8x7B Instruct,Llama 3 8B Instruct,non-frontier,non-frontier,0.7911379933357239,3.787850198180829
+Claude 3 Sonnet,Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.7909522652626038,3.7835964415313583
+Mixtral 8x22B Instruct,Llama 3 8B Instruct,frontier-open,non-frontier,0.7879180908203125,3.7151593639830205
+Llama 3 70B Instruct,Mistral 7B Instruct v0.3,frontier-open,non-frontier,0.784815788269043,3.647181091753569
+Llama 3.1 405B Instruct,Mistral 7B Instruct v0.3,frontier-open,non-frontier,0.7810478806495667,3.567208588648086
+Llama 3 8B Instruct,Mistral 7B Instruct v0.3,non-frontier,non-frontier,0.779344916343689,3.531959941415103
+Gemini Pro,Mixtral 8x22B Instruct,frontier-closed,frontier-open,0.7240424156188965,2.62374530217288
+GPT-4o (2024-05-13),Gemini Pro,frontier-closed,frontier-closed,0.7221755385398865,2.599395081140352
+Gemini Pro,Llama 3 70B Instruct,frontier-closed,frontier-open,0.7205122113227844,2.5779738525711196
+GPT-4 Turbo (2024-04-09),Gemini Pro,frontier-closed,frontier-closed,0.7195432782173157,2.565612525325257
+Gemini Pro,Mistral Large (2402),frontier-closed,frontier-closed,0.7171100378036499,2.5349433830597126
+Claude 3 Opus,Gemini Pro,frontier-closed,frontier-closed,0.7167624235153198,2.5306049868495757
+Gemini Pro,Llama 3.1 405B Instruct,frontier-closed,frontier-open,0.7143133282661438,2.5003383039569775
+Gemini Pro,Mistral 7B Instruct v0.3,frontier-closed,non-frontier,0.7138969302177429,2.49524386704786
+Gemini Pro,Mixtral 8x7B Instruct,frontier-closed,non-frontier,0.7133642435073853,2.488748271452188
+GPT-4 (1106-preview),Gemini Pro,frontier-closed,frontier-closed,0.7124064564704895,2.4771295201117343
+Gemini Pro,Llama 3 8B Instruct,frontier-closed,non-frontier,0.710944414138794,2.4595422088821475
+Claude 3 Sonnet,Gemini Pro,frontier-closed,frontier-closed,0.7098212838172913,2.4461521270579953
+Claude 3.5 Sonnet,Gemini Pro,frontier-closed,frontier-closed,0.7083311080932617,2.428545270846889

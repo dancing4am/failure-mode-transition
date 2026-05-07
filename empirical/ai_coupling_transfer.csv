@@ -1,0 +1,8 @@
+source,target,transfer_rate,attack_type,citation,evaluation,J_eff,regime
+Vicuna-ensemble,GPT-3.5,0.866,GCG suffix,Zou+2023,substring,6.462686567164178,supercritical (J>T)
+Vicuna-ensemble,GPT-4,0.469,GCG suffix,Zou+2023,substring,0.8832391713747645,subcritical (J<T/2)
+Vicuna-ensemble,Claude-1,0.479,GCG suffix,Zou+2023,substring,0.9193857965451055,subcritical (J<T/2)
+Vicuna-ensemble,Claude-2,0.021,GCG suffix,Zou+2023,substring,0.021450459652706845,subcritical (J<T/2)
+Vicuna-ensemble,PaLM-2,0.66,GCG suffix,Zou+2023,substring,1.9411764705882355,near-critical (T/2<J<T)
+frontier-pair-avg,frontier-pair-avg,0.235,HarmBench attacks (avg over 5 attacks × 5 closed models),Mazeika+2024,Llama-2-13B classifier,0.3071895424836601,subcritical (J<T/2)
+jailbreak-source,frontier-pair-avg,0.59,manual jailbreak (top-5 cross-model avg),Wei+2023,human/manual,1.4390243902439022,near-critical (T/2<J<T)

@@ -1,0 +1,7 @@
+topology,N,n_edges,mean_degree,min_degree,max_degree
+complete,200,19900,199.0,199,199
+erdos_renyi,200,1979,19.79,9,32
+watts_strogatz,200,2000,20.0,17,24
+barabasi_albert,200,1900,19.0,8,81
+modular,200,1867,18.67,9,30
+modular_boundary,200,1867,18.67,9,30

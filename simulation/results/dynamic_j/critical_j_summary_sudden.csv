@@ -1,0 +1,10 @@
+schedule,mult,median_J_at_collapse,q25,q75,frac_collapsed
+sudden,40,5.0,5.0,5.0,0.47
+sudden,50,5.0,5.0,5.0,0.31
+sudden,60,5.0,5.0,5.0,0.11
+sudden,65,5.0,5.0,5.0,0.14
+sudden,70,5.0,5.0,5.0,0.06
+sudden,75,5.0,5.0,5.0,0.02
+sudden,80,5.0,5.0,5.0,0.02
+sudden,90,5.0,5.0,5.0,0.01
+sudden,100,,,,0.0
