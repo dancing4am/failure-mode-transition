@@ -15,7 +15,7 @@ I am pleased to submit **"Why Fixed Protections Fail Under Rising Coordination: 
 **Practical information.**
 
 - ~5,000 words main text; ~2,000 words Methods; 8 main-text figures; Supplementary Information (§S1–§S11, Figures S1–S6).
-- All code, data, sweep outputs, and figure-generation scripts are released under the MIT License at a public GitHub repository (`github.com/dancing4am/failure-mode-transition`) and permanently archived on Zenodo (DOI: 10.5281/zenodo.20061433).
+- All code, data, sweep outputs, and figure-generation scripts are released under the MIT License at a public GitHub repository (`github.com/dancing4am/failure-mode-transition`) and permanently archived on Zenodo (DOI: 10.5281/zenodo.20061432).
 - Empirical data are openly available (Yahoo Finance for equity returns, FRED for macro series, V-Dem and Our World in Data for political indicators, AlpacaEval v2 for model outputs).
 - The manuscript is not under consideration at any other journal. A companion governance commentary is in preparation for separate submission to a policy venue.
 
