@@ -535,7 +535,10 @@ What is new here is its connection to a specific scaling law
 
 The framework correctly classifies known financial failures. An
 exploratory analysis of Federal Reserve rate-cut episodes (*N* = 12,
-2004–2025; FOMC ≥ 10 bp) shows a positive correlation
+2019–2025; FOMC ≥ 10 bp; the FRED search window spans 2004–2025 but
+the 60-day rolling-correlation series is constrained by XLRE's
+2015-10-08 inception, and the 2015–2018 period contained no rate
+cuts) shows a positive correlation
 (*r* = +0.62, *p* = 0.03) between contemporaneous coupling and 90-day
 post-cut SPY returns — passive effectiveness *declines* with coupling, while this active
 intervention's *rises* with it, motivating (not confirming) the
