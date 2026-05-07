@@ -928,16 +928,17 @@ redistributed in this repository under their respective licenses
 (Li et al., 2023). All processed CSVs underlying the figures are
 in `empirical/results/` and `simulation/results/`. The complete
 dataset and all generated outputs are archived at the repository
-listed under "Code availability" below; a Zenodo DOI will be
-minted at acceptance.
+listed under "Code availability" below and on Zenodo
+(DOI: 10.5281/zenodo.20061433).
 
 ### Code availability
 
 All simulation source, sweep CSV outputs, figure-generation
 scripts, and the empirical analysis pipeline are released under
 the MIT License at the public GitHub repository
-(`https://github.com/dancing4am/failure-mode-transition`,
-to be archived with a Zenodo DOI at acceptance). The headline
+(`https://github.com/dancing4am/failure-mode-transition`) and
+permanently archived on Zenodo (DOI: 10.5281/zenodo.20061433).
+The headline
 numerical results are reproducible from a clean checkout by
 running, in order, `simulation/scripts/run_sweep.py`,
 `simulation/scripts/level2_with_beliefs.py`,
