@@ -13,3 +13,9 @@ manuscript.pdf
 
 # Internal helpers — not for public release
 REPORTING_SUMMARY_ANSWERS.md
+
+# Reporting Summary artifacts — kept local for NatComms upload, not for public release
+reporting_summary.pdf
+reporting_summary.tex
+fix_paths_in_summary.py
+nr-reporting-summary-blank.pdf
