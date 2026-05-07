@@ -983,8 +983,8 @@ Chowon Jung (dancing4am@gmail.com).
 ## Figures
 
 **Figure 1.** *Static asymmetry in the minimal model.* P(collapse)
-heatmap over the (*J*, *μ*) grid (left panel), with cell-level
-collapse-type composition (right panels: rigidity share, fragmentation
+heatmap over the (*J*, *μ*) grid (upper panel), with cell-level
+collapse-type composition (lower panels: rigidity share, fragmentation
 share). 9,000 runs at d*t* = 0.05; 100 seeds per cell. Fragmentation
 occupies the low-*J*, low-*μ* corner and is fully cured by raising
 *μ*; rigidity dominates the high-*J* band at every *μ* and saturates
