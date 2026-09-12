@@ -1,0 +1,40 @@
+case,J,h_eff,lambda,lambda_le_0,P_pred,P_meas,ratio_pred_over_meas,n_seeds,note
+passive,2.5,0.4,0.20130372870764557,False,0.10670152655572929,0.05,2.1340305311145857,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,3.0,0.4,0.4415644744491749,False,0.20042084940024296,0.14,1.431577495716021,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,3.5,0.4,0.681825220190704,False,0.24949333494815595,0.21,1.1880634997531236,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,4.0,0.4,0.9220859659322331,False,0.2804957735629273,0.19,1.4762935450680386,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,4.5,0.4,1.162346711673762,False,0.3022956024096196,0.22,1.3740709200437256,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,5.0,0.4,1.4026074574152911,False,0.3186852336162944,0.28,1.1381615486296228,100,"h_eff = 0.4 = 2*(W0/500), W0=100; identical to S2.7 h0"
+passive,6.0,0.4,1.8831289488983498,False,0.3420716408497342,0.43,0.7955154438365911,100,extended_sweep
+passive,7.0,0.4,2.363650440381408,False,0.35825885701654814,0.28,1.2794959179162433,100,extended_sweep
+passive,8.0,0.4,2.8441719318644663,False,0.3703130531538811,0.38,0.9745080346154765,100,extended_sweep
+passive,9.0,0.4,3.324693423347524,False,0.37973776615199467,0.37,1.0263182868972829,100,extended_sweep
+passive,10.0,0.4,3.8052149148305823,False,0.387367867935892,0.35,1.1067653369596915,100,extended_sweep
+fixed2.4,3.0,2.4,-0.5424700056888865,True,0.0,0.0,,100,
+fixed2.4,5.0,2.4,-0.23745000948147743,True,0.0,0.0,,100,
+fixed2.4,7.0,2.4,0.06756998672593162,False,5.897540347486003e-20,0.02,2.9487701737430014e-18,100,
+fixed2.4,10.0,2.4,0.5250999810370451,False,0.0005690724832315201,0.08,0.007113406040394002,100,
+fixed2.4,15.0,2.4,1.2876499715555676,False,0.018857611790794256,0.23,0.08198961648171416,100,
+fixed2.4,20.0,2.4,2.0501999620740903,False,0.04980262953095543,0.26,0.19154857511905934,100,
+fixed5.0,3.0,5.0,-0.960111659975259,True,0.0,0.0,,100,
+fixed5.0,5.0,5.0,-0.9335194332920984,True,0.0,0.0,,100,
+fixed5.0,7.0,5.0,-0.9069272066089379,True,0.0,0.0,,100,
+fixed5.0,10.0,5.0,-0.8670388665841969,True,0.0,0.0,,100,
+fixed5.0,15.0,5.0,-0.8005582998762955,True,0.0,0.05,0.0,100,
+fixed5.0,20.0,5.0,-0.7340777331683939,True,0.0,0.12,0.0,100,
+coupling,4.0,2.0,-0.16005131677194784,True,0.0,0.01,0.0,100,"h_eff = 0.4*(1+J), base at W0 (delivered-field convention)"
+coupling,4.5,2.2,-0.19179703863938158,True,0.0,0.0,,100,"h_eff = 0.4*(1+J), base at W0 (delivered-field convention)"
+coupling,5.0,2.4000000000000004,-0.23745000948147788,True,0.0,0.0,,100,"h_eff = 0.4*(1+J), base at W0 (delivered-field convention)"
+quadratic,4.0,0.6560000000000001,0.7993736593290988,False,0.15818219665415278,0.13,1.2167861281088674,100,"h_eff = 0.4*(1+(J/5)^2), base at W0"
+quadratic,4.5,0.7240000000000001,0.9791196122628942,False,0.16064724977751932,0.11,1.4604295434319938,100,"h_eff = 0.4*(1+(J/5)^2), base at W0"
+quadratic,5.0,0.8,1.1390969652029446,False,0.15698942820636902,0.17,0.9234672247433471,100,"h_eff = 0.4*(1+(J/5)^2), base at W0"
+stress_realized,4.0,5.133858494710764,-0.953400706700539,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,4.5,5.14431654999634,-0.9481148680688641,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,5.0,5.157561031369271,-0.9430996836341277,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,7.0,5.1883050604132,-0.922724599765489,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,10.0,5.212585775728031,-0.8922260253326159,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,15.0,5.229049725463166,-0.8409506839943286,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_realized,20.0,5.239110819217826,-0.7900347556697472,True,0.0,0.0,,2000,"h_eff = realized window-mean field (magnitude_matched, window t<=50; ramp-dominated)"
+stress_W0approx,4.0,0.4441030568958847,0.9045394957068291,False,0.2579356548930073,0.0,,100,"SECONDARY convention: h_eff = 0.4 + 2*E[max(0,-m)]*J, E=0.0055 (n=500 rerun, first 280 steps; ignores wealth ramp)"
+stress_W0approx,4.5,0.44869346072941757,1.140448504132657,False,0.27946889586781326,0.0,,100,"SECONDARY convention: h_eff = 0.4 + 2*E[max(0,-m)]*J, E=0.0054 (n=500 rerun, first 280 steps; ignores wealth ramp)"
+stress_W0approx,5.0,0.44575046217548625,1.3798161511601608,False,0.2987692825499043,0.0,,100,"SECONDARY convention: h_eff = 0.4 + 2*E[max(0,-m)]*J, E=0.0046 (n=500 rerun, first 280 steps; ignores wealth ramp)"

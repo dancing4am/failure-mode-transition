@@ -1,0 +1,38 @@
+=== pilot_alpha_c.py : Substrate-A branch-collapse pilot (Amendment 1) ===
+op point T=0.1 dt=0.001 h=0.0 | N_ramp=400 seeds=12 eps=0.1 | alpha 4.0->0.3 step 0.1 | window 6000(3000 burn) | R_collapse=0.1 TAU=0.2
+[V1] ramp deterministic given seed : max|dR| over identical warm-started reruns = 0.0e+00 -> PASS (need 0)
+[V2] detector definition           : synthetic collapse recovered alpha_c=1.1429 vs true 1.1429; verdict logic cusp|d_ac|=0.000<=TAU & fold|d_ac|=0.952>TAU -> PASS
+
+-- Stage A (locate alpha_c) + Stage B (cusp/fold via hysteresis) --
+    seed  0: ac_down=3.0246  ac_up= 3.1458  |d_ac|=0.1212
+    seed  1: ac_down=3.2236  ac_up= 3.3143  |d_ac|=0.0907
+    seed  2: ac_down=2.7189  ac_up= 1.9741  |d_ac|=0.7448
+    seed  3: ac_down=2.5266  ac_up= 1.7638  |d_ac|=0.7628
+    seed  4: ac_down=2.5485  ac_up= 0.6032  |d_ac|=1.9453
+    seed  5: ac_down=3.0043  ac_up= 0.8439  |d_ac|=2.1603
+    seed  6: ac_down=2.9377  ac_up=   NONE  |d_ac|=inf
+    seed  7: ac_down=3.2652  ac_up= 2.8165  |d_ac|=0.4488
+    seed  8: ac_down=2.9574  ac_up=   NONE  |d_ac|=inf
+    seed  9: ac_down=3.1104  ac_up= 2.6427  |d_ac|=0.4677
+    seed 10: ac_down=2.5707  ac_up=   NONE  |d_ac|=inf
+    seed 11: ac_down=2.9994  ac_up= 2.9714  |d_ac|=0.0279
+
+  alpha_c (branch collapse, down-ramp) = 2.9073 +/- 0.2461  (sd over 12/12 seeds; range [2.527, 3.265])
+  hysteresis |d_ac| : mean=0.7522  max=2.1603  (9/12 seeds re-emerged)  TAU=0.2
+  cross-check: critical-fluctuation (R temporal-variance) peak at alpha=4.000  (must be ~ alpha_c)
+[V3] alpha_c + reproducibility + cusp/fold first-pass :
+     alpha_c=2.9073+/-0.2461 (rel spread 0.085, need <0.20; 12/12 collapsed)
+     hysteresis verdict: FOLD / first-order indication  (all seeds |d_ac|<=TAU = False) -> FAIL
+
+[V4] SKIPPED  -- gated on V3 cusp first-pass
+[V5] SKIPPED  -- gated on V3 cusp first-pass
+
+*** SUBSTRATE A CLOSURE VERDICT (Amendment 1(d)) ***
+    Hysteresis exceeds TAU (or no clean collapse / no
+    re-emergence): the transition is NOT a clean
+    supercritical pitchfork (fold / first-order /
+    trapped). The single permitted detector retry has
+    been used. Substrate A is CLOSED with no further
+    detector modification.
+
+=== pilot_alpha_c.py: CHECKS NEED REVIEW / CLOSURE (830s) ===

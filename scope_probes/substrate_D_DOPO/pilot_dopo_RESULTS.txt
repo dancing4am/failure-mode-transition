@@ -1,0 +1,38 @@
+=== pilot_dopo.py : Substrate D pilots (pre-reg 916f74a) ===
+locked single-shot; master_seed=20260518
+
+-- P1 primary (DECISIVE: h-exponent near cusp) --
+  op pt: p=1.5 T_eff=0.08 h=(0.004, 0.006, 0.009, 0.013, 0.02)
+  |⟨signX⟩|(h) = [0.0283, 0.0445, 0.0619, 0.0936, 0.1423]
+  h-exponent = 0.995  95%CI [0.930,1.070]  half=0.070 (need <0.2)  -> CUSP (h-exp∋1, excl ½)
+
+-- P1 secondary (confirmatory: deep-well J-exponent, pump-depletion-inclusive) --
+  J grid=[3.0, 4.0, 6.0, 9.0, 13.0]  η=[0.0032, 0.002, 0.0006, 0.0003, 0.0011]
+  J-exponent = -1.055  95%CI [-2.432,1.072]  (expect ≈ -2)
+
+-- P2 (⟨X²⟩|_{p=1} = C·T_eff^{1/2}, non-circular) --
+  T_eff (from cavity §1.3b) = [0.005, 0.01, 0.02, 0.04, 0.08]
+  ⟨X²⟩ = [0.0478, 0.06765, 0.09573, 0.13532, 0.1913]
+  T_eff-exponent = 0.500  95%CI [0.499,0.501]  (predict ½)
+  coefficient C: predicted=0.67598  measured=0.67646  rel-err=0.001
+
+-- P3 (rigidity: mean cross-barrier time vs pump) --
+  p=1.05: MFPT=     2.579  (flipped frac=1.00)
+  p= 1.2: MFPT=     5.571  (flipped frac=1.00)
+  p= 1.5: MFPT=    16.411  (flipped frac=1.00)
+  p= 2.0: MFPT=   397.656  (flipped frac=1.00)
+  p= 3.0: MFPT=       inf  (flipped frac=0.00)
+  p= 5.0: MFPT=       inf  (flipped frac=0.00)
+  monotone increasing: True
+
+=== pilots done (470s) ===
+
+=== V4 reversibility (dated archival run) ===
+date: 2026-08-24 | interpreter: 3.13.3 | command: python dopo_core.py (full V1-V4 self-check)
+=== dopo_core.py validations (Substrate D, pre-reg 916f74a) ===
+[V1] Z2 exact at h=0      : drift-oddness max|d(-X)+d(X)| = 0.0e+00 ; trajectory mirror max|Xm-(-Xp)| = 0.0e+00 -> PASS (need both 0, bitwise; Z2 acts as (X,ξ)->(-X,-ξ))
+[V2] Z2 breaking ∝ h (p<1): slope=0.9652 (pred 1.000) intercept=+0.0003 ; <X>(.08)/<X>(.02)=3.964 (pred 4) ; max rel-err vs h/(1-p)=0.032 -> PASS
+[V3] stationary ~ exp(-V/T): KS statistic = 0.0025 -> PASS (need <0.03)
+[V4] reversibility (ramp)  : max|<|X|>_up - <|X|>_dn| = 0.0052 -> PASS (need <0.05; Clause 2: expected PASS, unlike Substrate A)
+=== dopo_core.py: ALL VALIDATIONS PASSED ===
+exit: 0

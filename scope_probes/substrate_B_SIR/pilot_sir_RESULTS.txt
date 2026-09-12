@@ -1,0 +1,31 @@
+=== pilot_sir_RESULTS.txt : Substrate B bistability broad scan ===
+date: 2026-08-24 | interpreter: 3.13.3
+command: python d1_sir_scan.py (wraps deposited bistability.beta_bistable_window)
+note: absolute local paths in the verbatim traceback below are abbreviated to <repo>.
+
+-- (a) deposited self-test script, verbatim output --
+
+Traceback (most recent call last):
+  File "<repo>/scope_probes\substrate_B_SIR\bistability.py", line 199, in <module>
+    _tests()
+    ~~~~~~^^
+  File "<repo>/scope_probes\substrate_B_SIR\bistability.py", line 170, in _tests
+    assert win.size > 0, "kappa=0.85 must yield a bistable window"
+           ^^^^^^^^^^^^
+AssertionError: kappa=0.85 must yield a bistable window
+exit code: 1
+
+-- (b) the two grids coded in _tests() --
+kappa=0.00 (standard SIRS), beta0 in [0.5,8] x30 : window size = 0  -> no bistable cells
+kappa=0.85 I_h=0.05 omega=0.2 nu=0.02, beta0 in [0.5,8] x60 : window size = 0  -> no bistable cells
+NOTE: the deposited module's own test asserts the kappa=0.85 fixture
+should be bistable; that assertion FAILS (see (a)) - the detector
+finds no window there. The self-test expectation, not the scan, is wrong.
+
+-- (c) historical broad-scan grid, deposited detector --
+grid: kappa in {0.6,0.85,0.97} x I_h in {0.01,0.05,0.1} x omega in {0.05,0.2,0.5}
+      x nu in {0,0.02,0.05} x beta0 in [0.5,10] (80 points)
+configurations scanned: 81 x 80 beta0 points = 6480 cells
+bistable cells found: 0
+
+VERDICT: NO BISTABLE CELLS - the Discussion sentence stands

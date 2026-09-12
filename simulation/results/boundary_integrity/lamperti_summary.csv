@@ -1,0 +1,13 @@
+metric,clipped_EM,lamperti,paired_diff,ci_lo,ci_hi
+P_collapse,0.30700,0.29500,0.01200,0.00648,0.01752
+rigidity_share_of_collapsed,0.88111,0.74407,,,
+fragmentation_share_of_collapsed,0.00000,0.00169,,,
+mixed_share_of_collapsed,0.11889,0.25424,,,
+P_rigidity_collapse_uncond,0.27050,0.21950,0.05100,0.03904,0.06296
+collapse_step_median,292.0,295.0,,,
+collapse_step_p99,424.6,447.3,,,
+collapse_step_paired_mean_diff_bothcollapsed,,,-5.67,-7.55,-3.78
+n_discordant_EM_only,28,,,,
+n_discordant_Lamperti_only,4,,,,
+lamperti_drift_cap_rate,,5.266e-02,,,
+lamperti_fold_rate,,1.998e-01,,,

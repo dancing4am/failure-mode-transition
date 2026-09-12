@@ -1,0 +1,13 @@
+kind,topology,shared,independent
+p_collapse,complete,0.4,0.0
+p_collapse,erdos_renyi,0.3,0.0
+p_collapse,watts_strogatz,0.36,0.0
+p_collapse,barabasi_albert,0.4,0.0
+p_collapse,modular,0.32,0.0
+p_collapse,modular_boundary,0.32,0.0
+modular_corr_shared,modular,0.999999999999974,0.9999999999999739
+modular_corr_independent,modular,0.0010651214886030227,0.0007575974232228346
+Nscan_indep,N=1,nan,0.24
+Nscan_indep,N=5,nan,0.1
+Nscan_indep,N=25,nan,0.02
+Nscan_indep,N=200,nan,0.0

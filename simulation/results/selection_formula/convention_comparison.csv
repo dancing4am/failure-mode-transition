@@ -1,0 +1,37 @@
+variant,J,mu,h_eff_transient,P_pred_transient,lambda_transient,flag_transient_stable,h_eff_window,P_pred_window,lambda_window,flag_window_stable,P_measured,n_seeds,note
+passive,2.5,100,0.4,0.10670152655572929,0.20130372870764557,False,4.5738678108405235,0.0,-0.9494584805630383,True,0.05,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,3.0,100,0.4,0.20042084940024296,0.4415644744491749,False,4.368289246140167,0.0,-0.9258537899070238,True,0.14,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,3.5,100,0.4,0.24949333494815595,0.681825220190704,False,4.017656603336443,0.0,-0.8784484267050015,True,0.21,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,4.0,100,0.4,0.2804957735629273,0.9220859659322331,False,3.9548286109210835,0.0,-0.852414619209833,True,0.19,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,4.5,100,0.4,0.3022956024096196,1.162346711673762,False,3.8129887464565373,0.0,-0.8097559918453858,True,0.22,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,5.0,100,0.4,0.3186852336162944,1.4026074574152911,False,3.502186335137892,0.0,-0.7160548070125232,True,0.28,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (minimal_model)
+passive,6.0,100,0.4,0.3420716408497342,1.8831289488983498,False,3.533218114387043,0.0,-0.6690857426796928,True,0.43,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (extended_sweep)
+passive,7.0,100,0.4,0.35825885701654814,2.363650440381408,False,3.414665801185761,0.0,-0.5684296846049539,True,0.28,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (extended_sweep)
+passive,8.0,100,0.4,0.3703130531538811,2.8441719318644663,False,3.156033565556731,0.0,-0.3730379081298869,True,0.38,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (extended_sweep)
+passive,9.0,100,0.4,0.37973776615199467,3.324693423347524,False,3.316213717967759,0.0,-0.3917297275444823,True,0.37,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (extended_sweep)
+passive,10.0,100,0.4,0.387367867935892,3.8052149148305823,False,3.170481152833995,0.0,-0.22663247430662903,True,0.35,100,transient=0.4 (W0); window=realized mean 2*(W/500) over t<=50 (extended_sweep)
+fixed2.4,3.0,100,2.4,0.0,-0.5424700056888865,True,2.4,0.0,-0.5424700056888865,True,0.0,100,fixed field: both conventions equal the constant
+fixed2.4,5.0,100,2.4,0.0,-0.23745000948147743,True,2.4,0.0,-0.23745000948147743,True,0.0,100,fixed field: both conventions equal the constant
+fixed2.4,7.0,100,2.4,5.897540347486003e-20,0.06756998672593162,False,2.4,5.897540347486003e-20,0.06756998672593162,False,0.02,100,fixed field: both conventions equal the constant
+fixed2.4,10.0,100,2.4,0.0005690724832315201,0.5250999810370451,False,2.4,0.0005690724832315201,0.5250999810370451,False,0.08,100,fixed field: both conventions equal the constant
+fixed2.4,15.0,100,2.4,0.018857611790794256,1.2876499715555676,False,2.4,0.018857611790794256,1.2876499715555676,False,0.23,100,fixed field: both conventions equal the constant
+fixed2.4,20.0,100,2.4,0.04980262953095543,2.0501999620740903,False,2.4,0.04980262953095543,2.0501999620740903,False,0.26,100,fixed field: both conventions equal the constant
+fixed5.0,3.0,100,5.0,0.0,-0.960111659975259,True,5.0,0.0,-0.960111659975259,True,0.0,100,fixed field: both conventions equal the constant
+fixed5.0,5.0,100,5.0,0.0,-0.9335194332920984,True,5.0,0.0,-0.9335194332920984,True,0.0,100,fixed field: both conventions equal the constant
+fixed5.0,7.0,100,5.0,0.0,-0.9069272066089379,True,5.0,0.0,-0.9069272066089379,True,0.0,100,fixed field: both conventions equal the constant
+fixed5.0,10.0,100,5.0,0.0,-0.8670388665841969,True,5.0,0.0,-0.8670388665841969,True,0.0,100,fixed field: both conventions equal the constant
+fixed5.0,15.0,100,5.0,0.0,-0.8005582998762955,True,5.0,0.0,-0.8005582998762955,True,0.05,100,fixed field: both conventions equal the constant
+fixed5.0,20.0,100,5.0,0.0,-0.7340777331683939,True,5.0,0.0,-0.7340777331683939,True,0.12,100,fixed field: both conventions equal the constant
+coupling,4.0,100,2.0,0.0,-0.16005131677194784,True,25.93732210979195,0.0,-0.9999999999564835,True,0.01,100,transient=0.4*(1+J) at W0; window=realized mean base*(1+J) over t<=50
+coupling,4.5,100,2.2,0.0,-0.19179703863938158,True,28.64090796001226,0.0,-0.9999999999967216,True,0.0,100,transient=0.4*(1+J) at W0; window=realized mean base*(1+J) over t<=50
+coupling,5.0,100,2.4000000000000004,0.0,-0.23745000948147788,True,31.085771090010347,0.0,-0.999999999999684,True,0.0,100,transient=0.4*(1+J) at W0; window=realized mean base*(1+J) over t<=50
+quadratic,4.0,100,0.6560000000000001,0.15818219665415278,0.7993736593290988,False,7.269219283759309,0.0,-0.9944345117837563,True,0.13,100,transient=0.4*(1+(J/5)^2) at W0; window=realized mean over t<=50
+quadratic,4.5,100,0.7240000000000001,0.16064724977751932,0.9791196122628942,False,7.968453717960517,0.0,-0.9968862311842779,True,0.11,100,transient=0.4*(1+(J/5)^2) at W0; window=realized mean over t<=50
+quadratic,5.0,100,0.8,0.15698942820636902,1.1390969652029446,False,8.70050338356158,0.0,-0.9983355345643977,True,0.17,100,transient=0.4*(1+(J/5)^2) at W0; window=realized mean over t<=50
+stress,4.0,100,0.45343228102902755,0.2532301407561822,0.9006223013541912,False,5.133858494710764,0.0,-0.953400706700539,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0067 (base pinned at W0); window=realized mean field 5.134 (magnitude_matched, n=2000)"
+stress,4.5,100,0.44546792292654613,0.2809677652595304,1.141967183215546,False,5.14431654999634,0.0,-0.9481148680688641,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0051 (base pinned at W0); window=realized mean field 5.144 (magnitude_matched, n=2000)"
+stress,5.0,100,0.45021386372812516,0.2968407451110445,1.3774770602057722,False,5.157561031369271,0.0,-0.9430996836341277,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0050 (base pinned at W0); window=realized mean field 5.158 (magnitude_matched, n=2000)"
+stress,7.0,100,0.4511513320435554,0.34045133063051775,2.3277764808304866,False,5.1883050604132,0.0,-0.922724599765489,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0037 (base pinned at W0); window=realized mean field 5.188 (magnitude_matched, n=2000)"
+stress,10.0,100,0.45794650261995606,0.3711328228653728,3.746753860933315,False,5.212585775728031,0.0,-0.8922260253326159,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0029 (base pinned at W0); window=realized mean field 5.213 (magnitude_matched, n=2000)"
+stress,15.0,100,0.4651679948782578,0.39686443003119204,6.1084804431608015,False,5.229049725463166,0.0,-0.8409506839943286,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0022 (base pinned at W0); window=realized mean field 5.229 (magnitude_matched, n=2000)"
+stress,20.0,100,0.47399745529602016,0.41049855743485414,8.458698241613298,False,5.239110819217826,0.0,-0.7900347556697472,True,0.0,2000,"transient=0.4+2*E[max(0,-m)]*J, E=0.0018 (base pinned at W0); window=realized mean field 5.239 (magnitude_matched, n=2000)"

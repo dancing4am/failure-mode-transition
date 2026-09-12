@@ -1,0 +1,10 @@
+schedule,mult,median_J_at_collapse,q25,q75,frac_collapsed
+linear,40,0.56465,0.5555749999999999,0.57755,1.0
+linear,50,0.602075,0.5835874999999999,0.6507124999999999,0.5
+linear,60,0.638075,0.61115,0.64625,0.04
+linear,65,,,,0.0
+linear,70,,,,0.0
+linear,75,,,,0.0
+linear,80,,,,0.0
+linear,90,,,,0.0
+linear,100,,,,0.0

@@ -1,0 +1,21 @@
+# Core dependencies to reproduce the submitted paper:
+# the minimal Curie-Weiss model, all simulation sweeps and figures,
+# and the manuscript build pipeline (manuscript/arxiv/build_tex.py).
+# Version floors match REPRODUCIBILITY.md.
+#
+# The manuscript rebuild (build_tex.py) additionally requires pandoc,
+# which is a system tool, not a Python package. See REPRODUCIBILITY.md.
+#
+# empirical/ holds a pre-registration document only; no empirical scripts
+# are included.
+
+numpy >= 1.26
+scipy >= 1.11
+matplotlib >= 3.8
+pandas >= 2.0
+networkx >= 3.0
+
+# Required by the scope-probe classifier
+# (scope_probes/substrate_B_SIR/classifier.py):
+scikit-learn >= 1.3
+diptest >= 0.7

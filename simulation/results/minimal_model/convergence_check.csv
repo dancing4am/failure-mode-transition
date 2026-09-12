@@ -1,0 +1,7 @@
+cell,J,mult,dt,n_steps,p_collapse,n_collapsed,p_rigidity_of_collapsed,p_fragmentation_of_collapsed
+A_residual_rigidity,5.0,100.0,0.1,10000,0.25,25,0.88,0.0
+A_residual_rigidity,5.0,100.0,0.05,20000,0.35,35,0.8857142857142857,0.0
+A_residual_rigidity,5.0,100.0,0.025,40000,0.35,35,0.8857142857142857,0.0
+B_fragmentation_cured,0.5,100.0,0.1,10000,0.0,0,,
+B_fragmentation_cured,0.5,100.0,0.05,20000,0.0,0,,
+B_fragmentation_cured,0.5,100.0,0.025,40000,0.0,0,,
